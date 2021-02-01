@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+
+.serverside-title{
+  margin: 3rem 1rem 1rem 1rem;
+  color: rgb(73, 72, 72);
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: .1rem;
+}
+
+.layout{
+  margin: 1rem auto;
+  padding: .3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 80vh;
+  width:80%;
+  box-sizing: border-box;
+  
+}
+
+.sidebar{
+  width: 33%;
+  height: 100%;
+  padding: 0 .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .upper-part{
+    overflow-y: scroll;
+    height: 80%;
+    padding: .1rem .5rem;
+    border: 1px solid rgb(100, 100, 100);
+  }
+  .button-yeni{
+    margin-top : 1rem;
+  }
+}
+
+.text-editor{
+  width: 66%;
+  border: 1px solid rgb(100, 99, 99);
+  height: 100%;
+  padding: 0 .5rem;
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+}
+
+.text-box{
+  width: 100%;
+}
+
+.text-metin{
+  text-align: center;
+  color: gray;
+}
+
+.button-text{
+  color: rgb(5, 2, 49);
+  font-size: 1rem;
+  background-color: rgb(218, 218, 218);
+  border: none;
+  transition: all .3s ease-in-out;
+  &:focus{
+    outline: none;
+  }
+  &:hover{
+    color: rgb(250, 248, 244);
+    background-color: rgb(9, 3, 94);
+  }
+
+}
+
+.dosya{
+  text-align: left;
+}
+
+.onselect{
+  cursor: pointer;
+  padding: .125rem;
+  text-align: left;
+  scroll-behavior: smooth;
+  &:hover{
+    color: white;
+    background-color: rgb(9, 55, 206);
+  }
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  margin-bottom: .5rem;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 99%;
+  margin-bottom: .5rem;
+  
+}
+
+.text-header{
+  padding: .25rem;
+  color: rgb(34, 13, 13);
+}
